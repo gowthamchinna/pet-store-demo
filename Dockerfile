@@ -3,7 +3,7 @@
 
 # STAGE:
 # The 'maven' base is used to package the application
-FROM maven:3.6.2-jdk-8 as maven
+FROM maven as maven
 
 WORKDIR /app
 
